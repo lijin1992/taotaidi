@@ -2,13 +2,13 @@
 <view class="container">
   <view class="viewBox">
     <span class="title">这边要输入淘宝原链接......</span>
-    <textarea class="textarea" value="{{sourceValue}}" bindblur='bindTextAreaBlur'>
+    <textarea class="textarea" value="{{sourceValue}}" bindblur='bindTextAreaBlur' show-confirm-bar="{{false}}">
       <image  src='../images/123.png' class='image'></image>
     </textarea>
   </view>
   <view class="viewBox2">
       <span class="title2">转换后的链接......</span>
-      <textarea class="textarea" disabled value="{{changeValue}}">
+      <textarea class="textarea" value="{{changeValue}}" show-confirm-bar="{{false}}">
         <image  src='../images/456.png' class='image'></image>
       </textarea>
     </view>

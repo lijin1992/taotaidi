@@ -4,7 +4,7 @@ Page({
     sourceValue:'123',
     changeValue:'',
   },
-  bindTextAreaBlur:function(e){
+  bindTextAreaBlur(e){
     this.setData({
       sourceValue:e.detail.value,
       disabled:!!this.data.sourceValue
