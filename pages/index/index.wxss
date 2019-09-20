@@ -1,0 +1,41 @@
+/**index.wxss**/
+.viewBox,.viewBox2{
+  border:2px solid #12ae99;
+  border-radius: 5px;
+  margin-bottom:15px;
+  width:100%
+}
+.viewBox2{
+  border:2px solid #7fb1e5;
+}
+.title,.title2{
+  line-height: 35px;
+  padding-left:5rpx;
+  font-size:14px;
+  color:#fff;
+  display:inline-block;
+  height:35px;
+  background-color: #12ae99;
+  width:calc(100% - 5rpx);
+}
+.title2{
+  background-color: #7fb1e5;
+}
+.textarea{
+  padding:10px;
+  height:120px;
+  position: relative;
+  background-color: #fff;
+}
+.image{
+  position: absolute;
+  width:60px;
+  height:60px;
+  bottom:-20px;
+  right:-10px;
+}
+.button{
+  width:85%;
+  border-radius: 30px;
+  background: linear-gradient(to right, #12ae99 , #7fb1e5); 
+}

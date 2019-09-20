@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="viewBox">
+    <span class="title">这边要输入淘宝原链接......</span>
+    <textarea class="textarea" value="{{sourceValue}}" bindblur='bindTextAreaBlur'>
+      <image  src='../images/123.png' class='image'></image>
+    </textarea>
+  </view>
+  <view class="viewBox2">
+      <span class="title2">转换后的链接......</span>
+      <textarea class="textarea" disabled value="{{changeValue}}">
+        <image  src='../images/456.png' class='image'></image>
+      </textarea>
+    </view>
+  <button type="primary" size="default" loading="{{loading}}" disabled="{{disabled}}" class='button'> 开始转换 </button>
+</view>

@@ -1,0 +1,13 @@
+Page({
+  data:{
+    disabled:false,
+    sourceValue:'123',
+    changeValue:'',
+  },
+  bindTextAreaBlur:function(e){
+    this.setData({
+      sourceValue:e.detail.value,
+      disabled:!!this.data.sourceValue
+    })  
+  }
+})

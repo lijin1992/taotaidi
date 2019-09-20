@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/games/games"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "淘泰迪",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#12ae99",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "转 换",
+        "iconPath": "/pages/images/home.jpg",
+        "selectedIconPath": "/pages/images/homeSelect.jpg"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "怎么用",
+        "iconPath": "/pages/images/user.png",
+        "selectedIconPath": "/pages/images/userSelect.png"
+      },
+      {
+        "pagePath": "pages/games/games",
+        "text": "没想好",
+        "iconPath": "/pages/images/unknown.jpg",
+        "selectedIconPath": "/pages/images/unknownSelect.jpg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
