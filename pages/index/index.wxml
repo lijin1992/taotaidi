@@ -12,5 +12,5 @@
         <image  src='../images/456.png' class='image'></image>
       </textarea>
     </view>
-  <button type="primary" size="default" loading="{{loading}}" disabled="{{disabled}}" class='button'> 开始转换 </button>
+  <button type="primary" size="default" loading="{{loading}}" disabled="{{disabled}}" class='button' bindtap="startChange"> 开始转换 </button>
 </view>
